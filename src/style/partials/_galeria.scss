@@ -1,0 +1,37 @@
+#galeria {
+    margin-top: 40px;
+    width: 110vw;
+}
+
+.foto_background {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 15px 0px;
+    width: 100vw;
+}
+
+.foto {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    transform: skew(-10deg);
+    img {
+        height: 350px;
+        width: 350px;
+        object-fit: cover;
+        transform: skew(10deg);
+    }
+    
+}
+
+.fot1 {
+    position: relative;
+    right: 50px;
+}
+
+.fot2, 
+.fot3 {
+    position: relative;
+    right: 35px;
+}
+

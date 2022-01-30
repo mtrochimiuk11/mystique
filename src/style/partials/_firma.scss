@@ -1,0 +1,118 @@
+#firma {
+    margin-top: 50px;
+
+    h4 {
+        font-size: larger;
+        color: #947942;
+        letter-spacing: 1px;
+        margin-left: 15px;
+    }
+    img {
+        max-width: 80vw;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    h6 {
+        margin: 30px 20px 8px 25px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    p {
+        margin: 30px 20px 8px 25px;
+    }
+}
+
+.gold {
+    height: 18px;
+    width: 100px;
+    background-image: linear-gradient(to right, #604d28, #947942);
+    transform: skew(15deg);
+    border-radius: 5px;
+    margin-left: 68vw;
+}
+
+@media screen and (min-width: 768px) {
+    #firma {
+        margin: 150px 10vw 0px 10vw;
+        h4 {
+            margin-left: 0;
+        }
+        img {
+            max-width: 60vw;
+        }
+        .gold {
+            margin-left: 55vw;
+            height: 24px;
+            width: 114px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #firma {
+        margin-bottom: 110px;
+        margin-right: 0px;
+        h4 {
+            font-size: 1em;
+        }
+        img {
+            width: 300px;
+        }
+        div:first-of-type{
+            max-width: 500px;
+            padding: 0px 0px 0px 30px;
+            margin-top: 33px;
+            .gold {
+                float: left;
+                margin: 10px;
+                height: 75px;
+                width: 24px;
+            }
+        }
+        .text_wrapper{
+            margin-top: 20px;
+        }
+        
+        h6 {
+            margin-top: 8px;
+            margin-left: 60px;
+            margin: 8px -10px 8px 70px; 
+        }
+        p {
+            margin: 30px -10px 8px 70px;
+        }
+        div:last-child {
+            float: right;
+        }
+        img:last-child {
+            height: 100%;
+            object-fit: cover;
+            object-position: left;
+            width: 90vw;
+        }    
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #firma {
+        div:first-child {
+            margin-right: -80px;
+            div {
+                margin-right: 70px;
+            }
+        }
+        h4 {
+            margin-left: 70px;
+            letter-spacing: 6px;
+        }
+        img {
+            width: 350px;
+            margin-left: 70px;
+        }
+        h6,
+        p {
+        max-width: 250px;
+        margin-left: 100px;
+    }
+}
+}

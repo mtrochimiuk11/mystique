@@ -1,0 +1,142 @@
+nav {
+    color: white;
+    background-color: black;
+    transform: skewX(-20deg);
+    position: relative;
+    right: 20px;
+    border-radius: 2px;
+    margin-right: 5vw;
+    margin-top: 40px;
+    a {
+        color: white;
+        &:hover {
+            color: white;
+            background-image: linear-gradient(to right, #604d28, #947942);
+            padding: 12px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+}
+
+ul {
+    margin-top: 40px;
+    padding-right: 3vw;
+}
+
+li {
+    display: inline;
+    padding: 10px 0px;
+    &:last-of-type  {
+        padding-right: 3vw;
+    }
+    transform: skewX(20deg);    
+}
+
+.logo_wrapper {
+    margin: 20vw 0;
+    h4 {
+        margin-top: 10px;
+        margin-left: 35px;
+        letter-spacing: 7px;
+        font-size: 20px;
+    }
+}
+
+.logo_top {
+    width: 90vw;
+}
+
+@media screen and (min-width: 768px) {
+    nav {  
+        margin-right: 15vw;
+        font-size: 20px;
+    }
+
+    .logo_top {
+        width: 80vw;
+    }
+
+    .logo_wrapper h4 {
+        letter-spacing: 13px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .design {
+        height: 40px; 
+        margin-right: 40px;
+        img {
+            height: 40px;
+            margin-bottom: 0;
+            margin-right: 140px;
+        }
+        p {
+            font-size: 12px;
+            letter-spacing: 4px;
+            line-height: 5px;
+        }
+    }
+    
+    .glasses {
+        width: 350px;
+        float: right;
+        margin-right: 40px;
+    }
+    
+    nav {
+        width: 57vw;
+        margin: 0;
+        font-size: 18px;
+        ul {
+            padding-right: 0px; 
+            li {
+                padding: 5px 30px;
+                &:last-of-type {
+                    padding-right: 50px;
+                }
+            }
+        }
+    }
+    
+    .logo_wrapper {
+        margin: 120px 0px 120px 200px;
+    }
+    
+    .logo_wrapper h4 {
+        letter-spacing: 8px;
+    }
+    
+    .logo_top {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .design-xl {
+        div {
+            margin: 0px;
+            p {
+                margin-top: 0px;
+                margin-left: 50px;
+            }
+        }
+    }
+
+    .glasses {
+        margin-right: 100px;
+        float: none;
+    }
+
+    nav {
+        margin-top: 50px;
+    }
+
+    .logo_top {
+        max-width: 550px;
+    }   
+
+    .logo_wrapper h4 {
+        letter-spacing: 13px;
+    }
+}
